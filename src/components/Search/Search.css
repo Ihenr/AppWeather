@@ -1,0 +1,38 @@
+.serarch {
+  width: 60%;
+}
+
+.serarch input {
+  width: 75%;
+}
+
+.serarch button {
+  width: 25%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .serarch {
+    width: 80%;
+  }
+}
+
+@media (max-width: 468px) {
+  .serarch {
+    width: 90%;
+  }
+}
+
+@media (max-width: 390px) {
+  .serarch {
+    width: 90%;
+  }
+
+  .serarch input {
+    width: 60%;
+  }
+
+  .serarch button {
+    width: 40%;
+  }
+}
