@@ -9,6 +9,9 @@ const Search = ({ newLocation }) => {
     e.preventDefault();
     if (city === '' || !city) return alert('Ingrese una ciudad');
     newLocation(city);
+    var input = document.getElementById('cityName');
+
+    input.value = '';
   };
   return (
     <div className=" serarch flex  py-7 mx-auto">
